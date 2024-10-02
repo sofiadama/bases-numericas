@@ -10,4 +10,4 @@ while num > 0:
 
 lista_bits.reverse()
 
-print(lista_bits)  
+print(*lista_bits)  
