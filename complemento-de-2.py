@@ -6,8 +6,9 @@ while num > 0:
     num = num // 2
 
 binario.reverse()
-binario[-1] = 0
+binario[-1:0]
 
-binario = [1 - bit for bit in binario]
+comp_de_2 = [1 - bit for bit in binario]
+#bits from the original list are flipped
 
-print(*binario) 
+print(f'Complemento de 2:',*comp_de_2) 
